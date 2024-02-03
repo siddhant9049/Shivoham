@@ -12,6 +12,12 @@ const SegmentsSection = () => {
   const handleResidentialClick = () => {
     navigate('/residential');
   };
+  const handleResidentialClick2 = () => {
+    navigate('/Commercial');
+  };
+  const handleResidentialClick3 = () => {
+    navigate('/Indus');
+  };
   return (
     <section className="segments-section">
       <div className="segment">
@@ -29,7 +35,7 @@ const SegmentsSection = () => {
         </div>
         <h3>Explore Our Residential Projects</h3>
       </div>
-      <div className="segment">
+      <div className="segment" onClick={handleResidentialClick2}>
         <h2>COMMERCIAL</h2>
         <p>
           Ensure uninterrupted power supply for education institutions with our solar power solutions.
@@ -42,7 +48,7 @@ const SegmentsSection = () => {
         <h3>Discover Our Commercial Projects</h3>
       </div>
 
-      <div className="segment">
+      <div className="segment"  onClick={handleResidentialClick3}>
         <h2>INDUSTRIAL</h2>
         <p>
           Elevate industrial efficiency by reducing overhead costs with our solar power solutions.

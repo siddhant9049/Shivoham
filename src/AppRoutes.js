@@ -17,6 +17,8 @@ import ResidentialPage from './Components/SEGMENTS/residentialPage.js';
 import ProjectSection from "./Components/ProjectSection.js"
 import SolarPowerInfo from './Components/SolarPowerInfo.js';
 import ShivohamWorkflow from './Components/ShivohamWorkflow.js';
+import CommercialPage from './Components/SEGMENTS/CommercialPage.js';
+import IndustrialPage from './Components/SEGMENTS/IndustrialPage.js';
 
 
 function AppRoutes() {
@@ -38,6 +40,7 @@ function AppRoutes() {
             <ShivohamWorkflow/>
            
             <BrandAssociations/>
+
             <FlipCard/>
             
             <Footer/>
@@ -48,6 +51,9 @@ function AppRoutes() {
       <Route path="/solar-system-rooftop" element={<SolarSystemPage />} />
       <Route path="/solarWP" element={<SolarWaterPump />} />
       <Route path="/AEW" element={<AEW />} />
+      <Route path="/Commercial" element={<CommercialPage/>} />
+      <Route path="/Indus" element={<IndustrialPage/>} />
+
 
 
     </Routes>
