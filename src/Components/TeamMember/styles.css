@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Default styles for larger screens */
+
+.carousel-item {
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+    /* background-color: #3498db; */
+    background-image: url('../IMG/TMB.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Animation styles */
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease-in-out forwards;
+  }
+  
+  .carousel-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+    align-self: center; /* Center the image within its flex container */
+  }
+  
+  .carousel-name {
+    color: #fff;
+
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .carousel-designation {
+      color: #fff;
+
+    font-size: 16px;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    .carousel-item {
+      height: auto;
+      padding: 20px;
+    }
+  
+    .carousel-name {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+  
+    .carousel-designation {
+      font-size: 14px;
+    }
+  }
+  
+  /* Animation keyframes */
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .slick-slide img {
+    display: inline
+}

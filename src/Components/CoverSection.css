@@ -40,8 +40,9 @@
   
   .cover-content h2 {
     font-size: x-large;
-    width: 750px; /* Adjust the width based on your design */
-    margin: 10px auto; /* Center the text horizontally */
+    width: 650px; /* Adjust the width based on your design */
+    margin: 20px auto; /* Center the text horizontally */
+    margin-right: 20PX;
   }
   
   /* Add a hover effect */

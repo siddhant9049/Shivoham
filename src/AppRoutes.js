@@ -19,6 +19,7 @@ import SolarPowerInfo from './Components/SolarPowerInfo.js';
 import ShivohamWorkflow from './Components/ShivohamWorkflow.js';
 import CommercialPage from './Components/SEGMENTS/CommercialPage.js';
 import IndustrialPage from './Components/SEGMENTS/IndustrialPage.js';
+import CarouselComponent from './Components/TeamMember/CarouselComponent.js';
 
 
 function AppRoutes() {
@@ -40,6 +41,7 @@ function AppRoutes() {
             <ShivohamWorkflow/>
            
             <BrandAssociations/>
+            <CarouselComponent/>
 
             <FlipCard/>
             
